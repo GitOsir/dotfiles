@@ -83,6 +83,7 @@ vim.opt.wrap = false
 
 --tabstops
 vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
 
 -- Save undo history
 vim.o.undofile = true
@@ -664,7 +665,6 @@ require('lazy').setup({
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         -- ts_ls = {},
         ruff = {},
-        -- ['luau-lsp'] = {},
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
